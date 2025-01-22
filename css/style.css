@@ -358,7 +358,7 @@ footer {
     nav {
         border-bottom: 1px solid var(--orange);
     }
-    nav ul {
+    .navtitle, nav ul {
         display: none;
     }
     .contact {
