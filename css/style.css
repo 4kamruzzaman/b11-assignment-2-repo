@@ -277,6 +277,18 @@ fieldset legend {
     border-radius: 47.93px;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
+.legend2 {
+    background-color: #FFB800;
+    border: 1px solid #FFB800;
+}
+.legend3 {
+    background-color: #8A00FF;
+    border: 1px solid #8A00FF;
+}
+.legend4 {
+    background-color: #FF0000;
+    border: 1px solid #FF0000;
+}
 .stories-card-container h3 {
     margin: 25px 0 0 0;
     font-size: 24px;
