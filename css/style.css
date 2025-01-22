@@ -50,6 +50,9 @@ button {
 .purple {
     color: var(--purple);
 }
+.center {
+    text-align: center;
+}
 
 .raleway-font {
     font-family: 'Raleway', sans-serif;
@@ -156,7 +159,7 @@ nav ul li a:hover {
     background-size: contain;
     text-align: center;
 }
-.curriculum-bg h2 {
+.curriculum-bg h2, .stories-bg h2 {
     font-size: 46px;
     font-weight: 700;
 }
@@ -212,6 +215,30 @@ nav ul li a:hover {
     font-size: 15.09px;
     line-height: 28.3px;
 }
+
+/* Stories Section */
+
+.stories-bg {
+    margin: 60px 0;
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.stories-bg ul {
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 19px;
+    list-style: none;
+}
+.stories-bg ul li {
+    width: calc(33.33% - 19px);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    border-radius: 16px;
+}
+
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {}
