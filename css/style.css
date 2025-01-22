@@ -354,6 +354,9 @@ footer {
     list-style: none;
     gap: 40px;
 }
+.footer-social li {
+    cursor: pointer;
+}
 .hidepc {
     display: none;
 }
