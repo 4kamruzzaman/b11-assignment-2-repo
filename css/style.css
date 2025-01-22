@@ -1,0 +1,139 @@
+:root {
+    --black: #111111;
+    --orange: #FEA301;
+    --blue: #01ACFD;
+    --cyan: #05D4DF;
+    --purple: #5D58EF;
+    --white: #ffffff;
+    --bgcolor: #F7F7F7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: var(--bgcolor);
+}
+
+button {
+    font-family: 'Quicksand', serif;
+    cursor: pointer;
+}
+
+.black {
+    color: var(--black);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.cyan {
+    color: var(--cyan);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.raleway-font {
+    font-family: 'Raleway', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    max-width: calc(1290px - 40px);
+    margin: 0 auto;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.logo, nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+    font-weight: 700;
+    list-style: none;
+}
+
+nav img {
+    width: 62px;
+    height: 62px;
+    margin-right: 20px;
+}
+
+.navtitle {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 30px;
+}
+
+.contactbtn {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 10px 40px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.contactbtn:hover {
+    background-color: var(--blue);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sitesflex li {
+        width: calc(100% - 14px);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {}
+
+/* Extra largerXX devices (large desktops, 1921px and up) */
+/*
+@media (min-width: 1921px) {
+    .container {
+        max-width: calc(1920px - 40px);
+    }
+}
+*/
